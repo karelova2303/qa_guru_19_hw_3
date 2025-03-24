@@ -9,7 +9,7 @@ def url():
 
     yield
 
-    print('Тест завершен')
+    browser.quit()
 
 
 @pytest.fixture()
